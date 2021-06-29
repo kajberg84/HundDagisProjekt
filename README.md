@@ -1,8 +1,10 @@
-utility classer:
-.flex-reverse => byter plats på image och text.
+Linas HundDagis
 
+# utility classer:
 
-Global variables:
+### flex-reverse => byter plats på image och text.
+
+## Global variables:
 
     --clr-white: #fff;  
     --clr-offwhite:#fafafa;  

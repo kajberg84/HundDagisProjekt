@@ -94,7 +94,7 @@ img {
   padding: 0 20px;
 }
 
-.hero .contnt h1 {
+.hero .content h1 {
   font-size: 55px;
 }
 
@@ -147,6 +147,11 @@ img {
 
 .team img {
   border-radius:50%;
+}
+
+.dogpic {
+  max-width: 480px;
+  max-height: 304px;
 }
 
 /* contact form */
