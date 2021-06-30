@@ -54,6 +54,10 @@ img {
   padding: 0 30px;
 }
 
+#navbar {
+  z-index:20;
+}
+
 .navbar.top {
   background:transparent;
 }
@@ -119,8 +123,8 @@ img {
 }
 
 .hero.blog {
-  background: url('../images/home/blog.jpg') no-repeat center center/cover;
-  height: 30vh;
+  background: url('../images/home/start2.jpg') no-repeat center center/cover;
+  height: 40vh;
 }
 
 /* icons */
@@ -141,18 +145,29 @@ img {
   margin-bottom: 15px;
 }
 
+/* cases */
+
+.dogpic {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
 .cases img:hover {
   opacity: 0.7;
 }
 
-.team img {
-  border-radius:50%;
+.memberspic{
+  flex:1;
 }
 
-.dogpic {
-  max-width: 480px;
-  max-height: 304px;
+.members img {
+  border-radius:50%;
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
 }
+
 
 /* contact form */
 .callback-form {
@@ -232,15 +247,25 @@ img {
 
 /* media queries */
 
-@media(max-width: 768px) {
+@media(max-width: 920px){
+  /* .members img {
+    width: 150px;
+  } */
+}
+
+@media(max-width: 850px) {
   .navbar {
     flex-direction: column;
     height: 120px;
-    padding: 20px;
+    padding: 20px 0;
   }
   .navbar a{
-    padding: 10px 10px;
+    padding: 10px 5px;
     margin: 0 3px;
+  }
+
+  .hero .content h1 {
+    font-size: 35px;
   }
 
   .flex-items {
@@ -253,7 +278,23 @@ img {
     max-width: 100%;
   }
 
-  .team img {
+  .members img {
     width: 70%;
+    height: 300px;
   }
+
+  .post img {
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+  }
+}
+
+@media(max-width: 378px) {
+
+.post img {
+  width: 100%;
+  object-fit: cover;
+  margin: 0;
+}
 }

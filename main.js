@@ -1,4 +1,4 @@
-const navbar = document.getElementById("navbar");
+const navbar = document.querySelector("#navbar");
 
 // When scroll removing transparent background on navbar
 window.onscroll = function () {
