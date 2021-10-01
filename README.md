@@ -1,8 +1,7 @@
 Linas HundDagis
+En hunddagis sida. Förebyggande template
 
 # utility classer:
-
-### flex-reverse => byter plats på image och text.
 
 ## Global variables:
 
